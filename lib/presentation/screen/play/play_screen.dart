@@ -36,7 +36,6 @@ class _PlayScreenState extends State<PlayScreen> {
     return YoutubePlayerBuilder(
             player: YoutubePlayer(
               controller: controller,
-              progressIndicatorHeight: 4.0,
               progressColors: ProgressBarColors(
                   backgroundColor: Colors.grey,
                   playedColor: Colors.red,
